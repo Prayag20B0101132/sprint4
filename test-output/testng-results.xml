@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="13" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-13T23:55:11 IST" name="Suite" finished-at="2025-08-13T23:55:32 IST" duration-ms="20231">
+    <groups>
+    </groups>
+    <test started-at="2025-08-13T23:55:11 IST" name="Test" finished-at="2025-08-13T23:55:32 IST" duration-ms="20231">
+      <class name="auth.AuthTest">
+        <test-method is-config="true" signature="setToken()[pri:0, instance:auth.AuthTest@73a1e9a9]" started-at="2025-08-13T23:55:30 IST" name="setToken" finished-at="2025-08-13T23:55:31 IST" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setToken -->
+        <test-method signature="testAuthCode()[pri:0, instance:auth.AuthTest@73a1e9a9]" started-at="2025-08-13T23:55:31 IST" name="testAuthCode" finished-at="2025-08-13T23:55:31 IST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthCode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:auth.AuthTest@73a1e9a9]" started-at="2025-08-13T23:55:31 IST" name="tearDown" finished-at="2025-08-13T23:55:32 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- auth.AuthTest -->
+      <class name="passenger.ViewPassengerByIdTest">
+        <test-method is-config="true" signature="setToken()[pri:0, instance:passenger.ViewPassengerByIdTest@4218d6a3]" started-at="2025-08-13T23:55:19 IST" name="setToken" finished-at="2025-08-13T23:55:20 IST" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setToken -->
+        <test-method signature="testViewPassengerById(int)[pri:0, instance:passenger.ViewPassengerByIdTest@4218d6a3]" started-at="2025-08-13T23:55:20 IST" name="testViewPassengerById" data-provider="id" finished-at="2025-08-13T23:55:21 IST" duration-ms="1423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewPassengerById -->
+        <test-method signature="testViewPassengerById(int)[pri:0, instance:passenger.ViewPassengerByIdTest@4218d6a3]" started-at="2025-08-13T23:55:21 IST" name="testViewPassengerById" data-provider="id" finished-at="2025-08-13T23:55:22 IST" duration-ms="630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewPassengerById -->
+        <test-method signature="testViewPassengerById(int)[pri:0, instance:passenger.ViewPassengerByIdTest@4218d6a3]" started-at="2025-08-13T23:55:22 IST" name="testViewPassengerById" data-provider="id" finished-at="2025-08-13T23:55:23 IST" duration-ms="628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewPassengerById -->
+        <test-method signature="testViewPassengerById(int)[pri:0, instance:passenger.ViewPassengerByIdTest@4218d6a3]" started-at="2025-08-13T23:55:23 IST" name="testViewPassengerById" data-provider="id" finished-at="2025-08-13T23:55:23 IST" duration-ms="715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewPassengerById -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:passenger.ViewPassengerByIdTest@4218d6a3]" started-at="2025-08-13T23:55:23 IST" name="tearDown" finished-at="2025-08-13T23:55:23 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- passenger.ViewPassengerByIdTest -->
+      <class name="passenger.ViewPassengerList">
+        <test-method is-config="true" signature="setToken()[pri:0, instance:passenger.ViewPassengerList@14cd1699]" started-at="2025-08-13T23:55:23 IST" name="setToken" finished-at="2025-08-13T23:55:24 IST" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setToken -->
+        <test-method signature="testViewPassengerList()[pri:0, instance:passenger.ViewPassengerList@14cd1699]" started-at="2025-08-13T23:55:24 IST" name="testViewPassengerList" finished-at="2025-08-13T23:55:26 IST" duration-ms="1753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewPassengerList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:passenger.ViewPassengerList@14cd1699]" started-at="2025-08-13T23:55:26 IST" name="tearDown" finished-at="2025-08-13T23:55:26 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- passenger.ViewPassengerList -->
+      <class name="passenger.DeletePassengerById">
+        <test-method is-config="true" signature="setToken()[pri:0, instance:passenger.DeletePassengerById@77888435]" started-at="2025-08-13T23:55:26 IST" name="setToken" finished-at="2025-08-13T23:55:27 IST" duration-ms="1104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setToken -->
+        <test-method signature="testDeletePassengerById(int)[pri:0, instance:passenger.DeletePassengerById@77888435]" started-at="2025-08-13T23:55:27 IST" name="testDeletePassengerById" data-provider="id" finished-at="2025-08-13T23:55:28 IST" duration-ms="1750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePassengerById -->
+        <test-method signature="testDeletePassengerById(int)[pri:0, instance:passenger.DeletePassengerById@77888435]" started-at="2025-08-13T23:55:28 IST" name="testDeletePassengerById" data-provider="id" finished-at="2025-08-13T23:55:29 IST" duration-ms="722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePassengerById -->
+        <test-method signature="testDeletePassengerById(int)[pri:0, instance:passenger.DeletePassengerById@77888435]" started-at="2025-08-13T23:55:29 IST" name="testDeletePassengerById" data-provider="id" finished-at="2025-08-13T23:55:30 IST" duration-ms="590" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Unexpected success for non-existent passenger]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Unexpected success for non-existent passenger
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at passenger.DeletePassengerById.testDeletePassengerById(DeletePassengerById.java:83)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePassengerById -->
+        <test-method signature="testDeletePassengerById(int)[pri:0, instance:passenger.DeletePassengerById@77888435]" started-at="2025-08-13T23:55:30 IST" name="testDeletePassengerById" data-provider="id" finished-at="2025-08-13T23:55:30 IST" duration-ms="611" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Unexpected success for non-existent passenger]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Unexpected success for non-existent passenger
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at passenger.DeletePassengerById.testDeletePassengerById(DeletePassengerById.java:83)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePassengerById -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:passenger.DeletePassengerById@77888435]" started-at="2025-08-13T23:55:30 IST" name="tearDown" finished-at="2025-08-13T23:55:30 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- passenger.DeletePassengerById -->
+      <class name="passenger.ViewPassengerByNameAndMobile">
+        <test-method is-config="true" signature="setToken()[pri:0, instance:passenger.ViewPassengerByNameAndMobile@5656be13]" started-at="2025-08-13T23:55:16 IST" name="setToken" finished-at="2025-08-13T23:55:16 IST" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setToken -->
+        <test-method signature="testViewPassengerByNameMobile(java.lang.String,java.lang.String)[pri:0, instance:passenger.ViewPassengerByNameAndMobile@5656be13]" started-at="2025-08-13T23:55:16 IST" name="testViewPassengerByNameMobile" data-provider="nameAndMobile" finished-at="2025-08-13T23:55:17 IST" duration-ms="603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rakesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewPassengerByNameMobile -->
+        <test-method signature="testViewPassengerByNameMobile(java.lang.String,java.lang.String)[pri:0, instance:passenger.ViewPassengerByNameAndMobile@5656be13]" started-at="2025-08-13T23:55:17 IST" name="testViewPassengerByNameMobile" data-provider="nameAndMobile" finished-at="2025-08-13T23:55:18 IST" duration-ms="820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Priya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1245678231]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewPassengerByNameMobile -->
+        <test-method signature="testViewPassengerByNameMobile(java.lang.String,java.lang.String)[pri:0, instance:passenger.ViewPassengerByNameAndMobile@5656be13]" started-at="2025-08-13T23:55:18 IST" name="testViewPassengerByNameMobile" data-provider="nameAndMobile" finished-at="2025-08-13T23:55:19 IST" duration-ms="611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rakesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewPassengerByNameMobile -->
+        <test-method signature="testViewPassengerByNameMobile(java.lang.String,java.lang.String)[pri:0, instance:passenger.ViewPassengerByNameAndMobile@5656be13]" started-at="2025-08-13T23:55:19 IST" name="testViewPassengerByNameMobile" data-provider="nameAndMobile" finished-at="2025-08-13T23:55:19 IST" duration-ms="719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewPassengerByNameMobile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:passenger.ViewPassengerByNameAndMobile@5656be13]" started-at="2025-08-13T23:55:19 IST" name="tearDown" finished-at="2025-08-13T23:55:19 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- passenger.ViewPassengerByNameAndMobile -->
+      <class name="passenger.AddPassengerTest">
+        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:passenger.AddPassengerTest@1aafa419]" started-at="2025-08-13T23:55:11 IST" name="setExtentReport" finished-at="2025-08-13T23:55:11 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentReport -->
+        <test-method is-config="true" signature="setToken()[pri:0, instance:passenger.AddPassengerTest@1aafa419]" started-at="2025-08-13T23:55:11 IST" name="setToken" finished-at="2025-08-13T23:55:13 IST" duration-ms="2142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setToken -->
+        <test-method signature="testAddPassenger(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:passenger.AddPassengerTest@1aafa419]" started-at="2025-08-13T23:55:14 IST" name="testAddPassenger" data-provider="passenger" finished-at="2025-08-13T23:55:15 IST" duration-ms="954" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Matilda]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9898765654]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1239876765Y]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPassenger -->
+        <test-method signature="testAddPassenger(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:passenger.AddPassengerTest@1aafa419]" started-at="2025-08-13T23:55:15 IST" name="testAddPassenger" data-provider="passenger" finished-at="2025-08-13T23:55:15 IST" duration-ms="599" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Matilda]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9898765654]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1239876765Y]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Expected 409 Conflict for duplicate ID expected [409] but found [200],
+List changed unexpectedly on duplicate ID expected [1] but found [2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Expected 409 Conflict for duplicate ID expected [409] but found [200],
+List changed unexpectedly on duplicate ID expected [1] but found [2]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at passenger.AddPassengerTest.testAddPassenger(AddPassengerTest.java:85)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPassenger -->
+        <test-method signature="testAddPassenger(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:passenger.AddPassengerTest@1aafa419]" started-at="2025-08-13T23:55:15 IST" name="testAddPassenger" data-provider="passenger" finished-at="2025-08-13T23:55:16 IST" duration-ms="714" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1239876765Y]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Expected 400 Bad Request for empty fields expected [400] but found [200],
+Invalid passenger should not be added to list expected [0] but found [1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Expected 400 Bad Request for empty fields expected [400] but found [200],
+Invalid passenger should not be added to list expected [0] but found [1]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at passenger.AddPassengerTest.testAddPassenger(AddPassengerTest.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPassenger -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:passenger.AddPassengerTest@1aafa419]" started-at="2025-08-13T23:55:16 IST" name="tearDown" finished-at="2025-08-13T23:55:16 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- passenger.AddPassengerTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="passenger.AddPassengerTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setExtentReport"/>
+          <include name="setToken"/>
+          <include name="testAddPassenger" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- passenger.AddPassengerTest -->
+      <class name="passenger.DeletePassengerById">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setExtentReport"/>
+          <include name="setToken"/>
+          <include name="testDeletePassengerById" invocation-numbers="2 3"/>
+        </methods>
+      </class> <!-- passenger.DeletePassengerById -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

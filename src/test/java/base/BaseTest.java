@@ -25,7 +25,7 @@ public class BaseTest {
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss");
 		String timeStamp = formatter.format(LocalDateTime.now());
 		
-		String reportPath = System.getProperty("user.dir") + "/reports/ExtentReport_" + timeStamp;
+		String reportPath = System.getProperty("user.dir") + "/reports";
 		ExtentSparkReporter esr = new ExtentSparkReporter(reportPath);
 		esr.config().setTheme(Theme.STANDARD);
 		esr.config().setReportName("Flight Booking API Test Report");
